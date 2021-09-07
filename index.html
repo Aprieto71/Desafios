@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script type="text/javascript" src="./desafios.js"></script>
     <script type="text/javascript" src="./desafio2.js"></script>
+    <script type="text/javascript" src="./desafio3.js"></script>
+    <script type="text/javascript" src="./desafio4.js"></script>
+    <script type="text/javascript" src="./desafio5.js"></script>
+    <script type="text/javascript" src="./desafio6.js"></script>
+    <script type="text/javascript" src="./desafio7.js"></script>
 </head>
 <body>
     <div>
@@ -36,8 +41,63 @@
         </form>
     </div>
 
-    
+    <div>
+        <h1>Desafio N° 3</h1>
+        <form action="" id="form3"> 
+            <label>Cantidad de dulces</label>
+            <input type="number" id="dulces" name="dulces"></br>
+            <button type="button" onclick="data3()">Enviar</button>
+          
+        </form>
+    </div>
+    <div>
+        <h1>Desafio N° 4</h1>
+        <label for="var1">Digite un numero</label>
+        <input type="number" id="var1" name="var1" placeholder=" " ></br>
+        <label for="var2">Digite un numero</label>
+        <input type="number" id="var2" name="var2" placeholder=" " ></br>
+        <label for="var3">Digite un numero</label>
+        <input type="number" id="var3" name="var3" placeholder=" " ></br>
+        <label for="var4">Digite un numero</label>
+        <input type="number" id="var4" name="var4" placeholder=" " ></br>
+        <button onclick="Sumatoria()">Enviar</button>
 
+        <div id="suma_show"></div>
+    </div>
+
+    <div>
+        <h1>Desafio N° 5</h1>
+        <form action="" id="form5"> 
+            <label>¿Es Palindromo?</label>
+            <input type="text" id="palindromo" name="palindromo"></br>
+            <button type="button" onclick="esPalindromo()">Enviar</button>
+         
+        </form>
+    </div>
+    <div>
+        <h1>Desafio N° 6</h1>
+        <label for="muestra">Ingrese una muestra: </label>
+        <input type="text" id="muestra" name="muestra" placeholder=" " /></br>
+
+        <button onclick="muestra();">Media</button></br>
+        <button onclick="desviacion();">Desviacion Estandar</button></br>
+        <div id="media_show">La media es:</div>
+        <div id="desviacion_show">La desviacion estandar es: </div>
+    </div>
+
+    <div>
+        <h1>Desafio N° 6</h1>
+        <label for="fruta">Ingrese una fruta: </label>
+        <input type="text" id="fruta" name="fruta" placeholder=" " ></br>
+        <label for="kilos">Ingrese el numero de kilos: </label>
+        <input type="text" id="kilos" name="kilos" placeholder=" " ></br>
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="preciofruta_show"> :</div>
+
+    </div>
+    
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
